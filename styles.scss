@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", serif;
+}
+
+.welcome-scroll{
+    position: relative;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    background-image: url(img/top-back.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 196px;
+    padding-bottom: 156px;
+}
+.center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.welcome__heading{
+    color: rgb(32, 32, 39);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.welcome__text{
+    color: rgb(32, 32, 39);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 80px;
+}
+.welcome__text_bold{
+    font-weight: 600;
+}
+
+.welcome__link{
+    box-sizing: border-box;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+
+    color: rgb(255, 255, 255);
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 141.69%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 16px 65px;
+    text-decoration: none;
+    text-align: center;
+    
+    transition: all 1s;
+}
+.welcome__link_hover:hover{
+    background: white;
+    color: black;
+}
+
+
+
+.scroll{
+    background-color: #BCEC30;
+
+
+
+ 
+    margin-top: auto;
+
+
+
+    z-index: 2;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+}
+.scroll__text{
+    color: rgb(32, 32, 39);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 4%;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 27px;
+    padding-bottom: 30px;
+}
+.star1-top{
+    position: absolute;
+    top: 94px;
+    left: 63px;
+}
+.star2-top{
+    position: absolute;
+    top: 69px;
+    left: 156px;
+}
+.star3-top{
+    position: absolute;
+    bottom: 225px;
+    right: 455px;
+}
+.star4-top{
+    position: absolute;
+    bottom: 149px;
+    right: 344px;
+}
+.stargroup-top{
+    position: absolute;
+    bottom: 3px;
+    right: -488px;
+}
+
+
+
+.about{
+    background-image: url(img/aboutBack.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 94px;
+    padding-bottom: 50px;
+
+    position: relative;
+    overflow-x: hidden;
+}
+.about__heading{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.about__description{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 72px;
+}
+
+.games-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.games-cards__2row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    align-items: flex-end;
+    margin-top: -32px;
+}
+.game-card{
+    width: fit-content;
+    background: linear-gradient(to bottom, transparent, transparent 50%, white 50%, white);
+    border-radius: 30px;
+    height: fit-content;
+}
+.game-card:hover{
+    transform: scale(1.1);
+}
+.games-cards__link{
+    text-decoration: none;
+    z-index: 1;
+}
+
+
+.game-card__number{
+    border-radius: 52.58px;
+    background: rgb(247, 247, 247);
+
+    color: rgb(32, 32, 39);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 32px;
+    padding: 9px 16px;
+    width: fit-content;
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+.game-card__name{
+    color: rgb(32, 32, 39);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 36px;
+    margin-left: 32px;
+}
+
+.star1-about{
+    position: absolute;
+    top: 77px;
+    right: -53px;
+    transform: rotate(-6.77deg);
+}
+.star2-about{
+    position: absolute;
+    top: 770px;
+    left: 25px;
+}
+.star3-about{
+    position: absolute;
+    top: 822px;
+    left: 40px; 
+}
