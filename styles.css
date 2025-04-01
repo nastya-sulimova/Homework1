@@ -11,6 +11,8 @@ body {
 .welcome-scroll {
   position: relative;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .top {
@@ -20,17 +22,11 @@ body {
   background-size: cover;
   padding-top: 196px;
   padding-bottom: 156px;
-  height: 800px;
 }
 
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
-}
-
-.welcome {
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 .welcome__heading {
@@ -50,7 +46,7 @@ body {
   line-height: 32px;
   letter-spacing: 0px;
   text-align: left;
-  margin-bottom: 48px;
+  margin-bottom: 80px;
 }
 
 .welcome__text_bold {
@@ -82,7 +78,7 @@ body {
 
 .scroll {
   background-color: #BCEC30;
-  position: absolute;
+  margin-top: auto;
   z-index: 2;
   width: 100vw;
   bottom: 0;
