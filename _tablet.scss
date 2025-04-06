@@ -1,0 +1,53 @@
+@media (max-width: 1200px){
+    .center{
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+    .welcome__heading{
+        position: relative;
+        z-index: 1;
+    }
+
+    
+    .games-cards{
+        gap: 10px;
+        align-items: center;
+    }
+    .games-cards__2row{
+        margin-top: 20px;
+        gap: 10px;
+        align-items: center;
+    }
+    .game-card:hover{
+        transform: scale(1);
+    }
+    .games-cards__link_margin{
+        margin-top: 20px;
+    }
+
+    
+
+    .mini-game__img{
+        width: 440px;
+    }
+    .mini-game__text{
+        padding: 18px;
+        justify-content: space-evenly;
+    }
+    .mini-game__name{
+        font-size: 35px;
+        margin-bottom: 8px;
+    }
+    .mini-game__description{
+        font-size: 18px;
+        margin-bottom: 11px;
+    }
+    .mini-games__link{
+        font-family: inherit;
+        font-size: 20px;
+        padding: 12px 61px;
+    }
+    .mini-games__button{
+        margin-top: 10px;
+    }
+}

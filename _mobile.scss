@@ -1,0 +1,149 @@
+@media (max-width: 765px){
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .welcome__heading{
+        font-size: 40px;
+        line-height: 49px;
+        text-align: center;
+    }
+    .top{
+        padding-top: 147px;
+        padding-bottom: 82px;
+        padding-left: 29px;
+        padding-right: 29px;
+    }
+    .welcome__text{
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 36px;
+    }
+    .welcome__link{
+    font-family: inherit;
+    font-size: 16px;
+
+    display: block;
+    max-width: 733px;
+    }
+    .welcome__link_hover:hover{
+        background: rgb(32, 32, 39);;
+        color: rgb(255, 255, 255);
+    }
+    .welcome__button{
+        margin-top: 15px;
+    }
+    .scroll__text{
+        font-size: 16px;
+        padding: 17px 24px;
+    }
+
+
+    .star1-top{
+        top: 97px;
+        left: 37px;
+        width: 35px;
+        height: 35px;
+    }
+    .star2-top{
+        top: 64px;
+        left: 91px;
+        width: 21px;
+        height: 21px;
+    }
+    .star3-top{
+        bottom: 125px;
+        right: 86px;
+        width: 18px;
+        height: 18px;
+    }
+    .star4-top{
+        bottom: 79px;
+        right: 34px;
+        width: 39px;
+        height: 41px;
+    }
+    .stargroup-top{
+        display: none;
+    }
+
+    .stargroup-top__mobile{
+        position: absolute;
+        top: -103px;
+        right: -112px;
+        display: block;
+    }
+
+
+    .about{
+        display: none;
+    }
+
+
+    .mini-game__card{
+        display: none;
+    }
+    .mini-games{
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .mini-games__cards{
+        gap: 24px;
+        align-items: center;
+    }
+ 
+    .mini-game__card_mobile{
+        width: fit-content;
+        background: linear-gradient(to bottom, transparent, transparent 5%, white 5%, white);
+        border-radius: 30px;
+        height: fit-content;
+        display: block;
+        max-width: 343px;
+    }
+    .mini-game__text_mobile{
+        padding: 30px;
+    }
+    .mini-games__button_mobile{
+        max-width: 376px;
+        width: 100%;
+    }
+    .mini-games__link_mobile{
+        font-size: 16px;
+        display: block;
+        width: 100%;
+    }
+    .mini-game__name_mobile{
+        font-size: 32px;
+        line-height: 39px;
+        margin-bottom: 16px;
+    }
+    .mini-game__description_mobile{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 32px;
+    }
+
+    .star1-mini,
+    .star2-mini,
+    .star3-mini,
+    .star4-mini{
+        display: none;
+    }
+
+    .mini-games__heading{
+        font-size: 40px;
+        line-height: 49px;
+        margin-bottom: 48px;
+    }
+
+    .footer{
+        padding: 40px;
+    }
+    .footer__rights{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+}
