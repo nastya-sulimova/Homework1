@@ -66,3 +66,34 @@ division = addition / 2;
 alert(division);
 result = division - number;
 alert(`Ответ равен ${result}`);
+
+
+
+// Практика по SWITCH
+let day = String(prompt("Введите день недели"));
+
+switch (day) {
+    case "понедельник":
+        console.log("Первый день недели - жопа");
+        break;
+    case "вторник":
+        console.log("Второй день недели - жопа");
+        break;
+    case "среда":
+        console.log("Третий день недели - жопа, держимся");
+        break;
+    case "четверг":
+        console.log("Четвертый день недели - жопа, из последних сил уже");
+        break;
+    case "пятница":
+        console.log("Пятый день недели - НАКОНЕЦ-ТО ПЪЕМ!!!");
+        break;
+    case "суббота":
+        console.log("Шестой день недели - высыпаемся, отходим, збс");
+        break;
+    case "воскресенье":
+        console.log("Седьмой день недели - высыпаемся, но завтра на работу - жопа");
+        break;
+    default:
+        break;
+}
