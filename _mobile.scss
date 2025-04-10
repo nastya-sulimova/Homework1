@@ -68,7 +68,7 @@
         display: none;
     }
 
-    .stargroup-top__mobile{
+    .stargroup-top_mobile{
         position: absolute;
         top: -103px;
         right: -112px;
@@ -81,7 +81,7 @@
     }
 
 
-    .mini-game__card{
+    .mini-game{
         display: none;
     }
     .mini-games{
@@ -93,7 +93,7 @@
         align-items: center;
     }
  
-    .mini-game__card_mobile{
+    .mini-game-mobile{
         width: fit-content;
         background: linear-gradient(to bottom, transparent, transparent 5%, white 5%, white);
         border-radius: 30px;

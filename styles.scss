@@ -134,7 +134,7 @@ body {
     right: -488px;
 }
 
-.stargroup-top__mobile{
+.stargroup-top_mobile{
     display: none;
 }
 
@@ -262,17 +262,17 @@ body {
     flex-direction: column;
     gap: 32px;
 }
-.mini-game__card{
+.mini-game{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background: linear-gradient(to left, transparent, transparent 30%, white 30%, white);
     border-radius: 30px;
     height: fit-content;
 }
-.mini-game__card_backwards{
+.mini-game_backwards{
     background: linear-gradient(to right, transparent, transparent 30%, white 30%, white);
 }
-.mini-game__card_mobile{
+.mini-game-mobile{
     display: none;
 }
 .mini-game__text,
