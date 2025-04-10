@@ -34,42 +34,30 @@ let b = '3';
 alert(Number(a) + Number(b));
 
 // Задание 5
-let monthNumber = String(prompt(`Напишите номер месяца или название и определите время года`));
+let monthNumber = Number(prompt(`Напишите номер месяца и определите время года`));
 
 switch (monthNumber) {
-    case `1`:
-    case `2`:
-    case `12`:
-    case `январь`:
-    case `февраль`:
-    case `декабрь`: 
+    case 1:
+    case 2:
+    case 12:
         alert("зима");
         break;
 
-    case `3`:
-    case `4`:
-    case `5`:
-    case `март`:
-    case `апрель`:
-    case `май`: 
+    case 3:
+    case 4:
+    case 5:
         alert("весна");
         break;
 
-    case `6`:
-    case `7`:
-    case `8`:
-    case `июнь`:
-    case `июль`:
-    case `август`: 
+    case 6:
+    case 7:
+    case 8:
         alert("лето");
         break;
 
-    case `9`:
-    case `10`:
-    case `11`:
-    case `сентябрь`:
-    case `октябрь`:
-    case `ноябрь`: 
+    case 9:
+    case 10:
+    case 11:
         alert("осень");
         break;
 
