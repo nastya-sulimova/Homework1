@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="welcome-scroll">
+    <!-- <div class="welcome-scroll">
         <section class="top center welcome">
             <h1 class="welcome__heading">Добро пожаловать<br> на мой сайт мини-игр</h1>
             <p class="welcome__text">Тебе предстоит пройти несколько увлекательных игр. <br> Если готов, нажимай <span class="welcome__text welcome__text_bold">«Поехали!»</span> и <span class="welcome__text welcome__text_bold">приступай</span>.</p>
@@ -156,7 +156,7 @@
         
         
         
-    </section>
+    </section> -->
 
     <section class="mini-games center">
         <h2 class="mini-games__heading">Мини-игры</h2>
@@ -167,13 +167,17 @@
                     <p class="mini-game__name">Угадай число</p>
                     <p class="mini-game__description">Попробуй угадать случайное <br>число от 1 до 100.</p>
                     <div class="mini-games__button">
-                        <a href="guess_number.html" class="mini-games__link mini-games__link_hover">Играть!</a>
+                        <a href="#" class="mini-games__link mini-games__link_hover">Играть!</a>
                     </div>
                 </div>
                 <img src="img/miniGames1.png" alt="game" class="mini-game__img">
             </div>
 
-            <div class="mini-game mini-game_backwards" id="game2">
+            <p class="mini-game__rules">Напиши любое число от 1 до 100 <br> Если не угадал - следуй подсказкам и пробуй снова!</p>
+            <!-- <input type="number" onclick="guessNumber()"> -->
+
+
+            <!-- <div class="mini-game mini-game_backwards" id="game2">
                 <img src="img/miniGames2.png" alt="game" class="mini-game__img">
                 <div class="mini-game__text">
                     <p class="mini-game__name">Простая <br>арифметика</p>
@@ -226,7 +230,7 @@
                         <a href="#" class="mini-games__link mini-games__link_hover">Играть!</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
 <!-- Мобильная версия карточек с играми -->
 
@@ -241,7 +245,7 @@
                 </div>
             </div>
 
-            <div class="mini-game-mobile" id="game2">
+            <!-- <div class="mini-game-mobile" id="game2">
                 <img src="img/mobile2.png" alt="game" class="mini-game-mobile__img">
                 <div class="mini-game__text mini-game__text_mobile">
                     <p class="mini-game__name mini-game__name_mobile">Простая <br>арифметика</p>
@@ -294,7 +298,7 @@
                         <a href="#" class="mini-games__link_mobile">Играть!</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
         
@@ -333,6 +337,6 @@
         <p class="footer__rights">Все права защищены.</p>
     </footer>
     
-
+    <script src="guess_number.js"></script>
 </body>
 </html>
