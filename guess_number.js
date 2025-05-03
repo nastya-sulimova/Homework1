@@ -1,3 +1,14 @@
+const playButton = document.querySelectorAll(".mini-games__link_click-1, .mini-games__link_click-1-mobile");
+
+playButton.forEach(button => {
+  button.addEventListener("click", (event) => {
+    event.preventDefault();
+    guessNumber(); // вызываем игру при клике на любую кнопку
+  });
+});
+
+
+
 function guessNumber() {
     const number = 57;
     let userNumber;
@@ -18,7 +29,7 @@ function guessNumber() {
     }
 }
 
-guessNumber();
+// guessNumber();
 
 
 

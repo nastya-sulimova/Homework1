@@ -3,6 +3,18 @@
 // ведь количетсво строчек кода даже немного увеличивается, но как-то так
 //
 
+const playButtons = document.querySelectorAll(".mini-games__link_click-2, .mini-games__link_click-2-mobile");
+
+playButtons.forEach(button => {
+  button.addEventListener("click", (event) => {
+    event.preventDefault();
+    startGame(); // вызываем игру при клике на любую кнопку
+  });
+});
+
+// Функция игры
+function startGame() {
+
 let userN1=Math.floor(Math.random() * 101);
 let userN2=Math.floor(Math.random() * 101);
 
@@ -30,7 +42,7 @@ if (correctAnswer===result) {
 } else {
     alert("Ошибка!");
 }
-
+  }
 
 
 // 5 попытка - чат объяснил, как использовать Math.random() (прикольная штука, потом потренировалсь по его мини-тренажеру) 
