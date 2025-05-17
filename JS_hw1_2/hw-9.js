@@ -79,7 +79,9 @@ const DescriptionEl = document.querySelector('.Description');
 const deleteBtnEl = document.querySelector('.deleteBtn');
 
 deleteBtnEl.addEventListener('click', ()=>{
-  DescriptionEl.remove();
+    if (DescriptionEl) {
+        DescriptionEl.remove();
+    }
 })
 
 
